@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHFEST 2k26 | BCREC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Rammetto+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<style>
+
+  @font-face {
+  font-family: 'MyFont';
+  src: url('imax.ttf') format('truetype');
+}
+    .sujoy1 {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    /* .sujoy2 {
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    } */
+
+    .sujoy2{
+      font-family: MyFont;
+    }
+</style>
+<body>
+<!-- <div id="loader">
+  <h1>BCREC</h1>
+  <h1>HORIZON</h1>
+  <h1>2K26</h1>
+</div> -->
+
+    <header class="bg-black/70 text-white w-full px-6 py-4 sticky top-0 z-50 shadow-lg sujoy2">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            
+            <div class="flex items-center gap-4 lg:gap-6">
+            <img src="/images/bcreclogo2.png" alt="bcrec" class="h-14 md:h-16 w-auto object-contain">
+            <div class="h-8 w-px bg-gray-700"></div> <img src="/images/horizonlogo2.png" alt="horizonlogo" class="h-14 md:h-16 w-auto object-contain">
+            </div>
+
+            <nav class="hidden lg:block">
+            <ul class="flex gap-8 items-center font-medium tracking-wide">
+                <li><a href="/" class="hover:text-blue-400 transition-colors duration-300 sujoy2">HOME</a></li>
+                <li><a href="#sponsors" class="hover:text-blue-400 transition-colors duration-300 sujoy2">SPONSORS</a></li>
+                <li><a href="/team.html" class="hover:text-blue-400 transition-colors duration-300 sujoy2">TEAM</a></li>
+                <li><a href="/gallery.html" class="hover:text-blue-400 transition-colors duration-300 sujoy2">GALLERY</a></li>
+                <li><a href="#events" class="bg-blue-600 hover:bg-blue-700 px-5 py-2 rounded-full transition-all duration-300 sujoy2">EVENTS</a></li>
+            </ul>
+            </nav>
+
+            <button id="mobile-menu-button" class="lg:hidden text-white focus:outline-none">
+            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+            </svg>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden mt-4 bg-transpernt z-20 rounded-lg p-4 transition-all border border-zinc-800">
+            <ul class="flex flex-col gap-4 text-center text-lg">
+            <li><a href="/" class="mobile-link block py-2 hover:bg-zinc-800 rounded">HOME</a></li>
+            <li><a href="#sponsors" class="mobile-link block py-2 hover:bg-zinc-800 rounded">SPONSORS</a></li>
+            <li><a href="/team.html" class="block py-2 hover:bg-zinc-800 rounded">TEAM</a></li>
+            <li><a href="/gallery.html" class="block py-2 hover:bg-zinc-800 rounded">GALLERY</a></li>
+            <li><a href="#events" class="mobile-link block py-2 bg-blue-600 rounded">EVENTS</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <script>
+      const btn = document.getElementById('mobile-menu-button');
+      const menu = document.getElementById('mobile-menu');
+      const links = document.querySelectorAll('.mobile-link');
+
+      btn.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+      });
+
+      links.forEach(link => {
+        link.addEventListener('click', () => {
+          menu.classList.add('hidden');
+        });
+      });
+    </script>
+ 
+    <section class="w-full relative h-full py-0 px-4 justify-center items-center main-co">
+        <div class="min-h-full relative overflow-hidden w-full mx-auto flex justify-between items-center gap-2 z-10">
+            <div class="hidden lg:block p-2 h-full min-w-[18%] w-full text-white">
+                <div class="p-2 w-full bg-gray-800/40 backdrop-blur-sm border border-gray-700/50 rounded-2xl">
+                    <!-- <h2 class="sujoy2">Guest</h2> -->
+                    <div class="p-1 w-full flex justify-left items-center">
+                        <img src="/images/avatars.jpg" alt="guest" class="h-42 w-full rounded-2xl">
+                    </div>
+                    <p class="sujoy1 p-2">Our guest will be revealed soon. We are excited to welcome a special presence who will add great value to this event. Stay tuned for the announcement.</p>
+                    <button class="bg-gradient-to-r mt-2 from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 px-6 py-3 sujoy2 rounded-lg w-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-900/30">
+                            View Profile →
+                    </button>
+                </div>
+            </div>
+            <div class="text-white p-1 h-full min-w-[60%] w-full">
+                <div class="p-2 flex flex-col text-center justify-center items-center">
+                    <img src="/images/horizonlogo2.png" alt="logo" class="w-auto h-54 md:h-64">
+                    <p class="text-xl sujoy2">LET'S MAKE A TECH MOVE!</p>
+                    <p class="f2 sujoy2">10 - 11 FEB 2K26</p>
+                    <p class="text-2xl sujoy1 -mt-5">save the date</p>
+                    <div class="flex flex-wrap gap-4 justify-center sujoy2 mt-4">
+                      <div class="bg-slate-800/50 px-6 py-4 rounded-xl text-center w-24">
+                        <p id="days" class="text-3xl font-bold">00</p>
+                        <span class="text-xs text-yellow-400">Days</span>
+                      </div>
+
+                      <div class="bg-slate-800/50 px-6 py-4 rounded-xl text-center w-24">
+                        <p id="hours" class="text-3xl font-bold">00</p>
+                        <span class="text-xs text-yellow-400">Hours</span>
+                      </div>
+
+                      <div class="bg-slate-800/50 px-6 py-4 rounded-xl text-center w-24">
+                        <p id="minutes" class="text-3xl font-bold">00</p>
+                        <span class="text-xs text-yellow-400">Minutes</span>
+                      </div>
+
+                      <div class="bg-slate-800/50 px-6 py-4 rounded-xl text-center w-24">
+                        <p id="seconds" class="text-3xl font-bold">00</p>
+                        <span class="text-xs text-yellow-400">Seconds</span>
+                      </div>
+                    </div>
+                    <div class="flex flex-col gap-0 md:flex-row md:gap-4">
+                      <a href="https://forms.gle/GWTnv3eYkMafyQP68">
+                      <button class="group relative mt-4 px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 rounded-md sujoy1 text-lg md:text-xl transition-all duration-300 transform hover:scale-105 overflow-hidden">
+                          <span class="relative z-10">IN-HOUSE REGISTRATION</span>
+                          <div class="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                          <div class="absolute top-0 -left-full group-hover:left-full w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-all duration-700"></div>
+                      </button></a>
+                      <a href="https://forms.gle/BgDi3NWiLrDDJFgB7">
+                      <button class="group relative mt-4 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-md sujoy1 text-lg md:text-xl transition-all duration-300 transform hover:scale-105 overflow-hidden">
+                          <span class="relative z-10">OTHER INSTITUTES</span>
+                          <div class="absolute inset-0 bg-gradient-to-r from-purple-700 to-pink-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                          <div class="absolute top-0 -left-full group-hover:left-full w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-all duration-700"></div>
+                      </button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hidden lg:block min-w-[18%]">
+            <div class="text-white p-2 h-full min-w-[18%] w-full flex justify-end">
+                <div class="bg-gray-800/40 backdrop-blur-sm rounded-2xl border border-gray-700/50 px-2 py-3 w-24">
+                    <div class="space-y-4">
+                        <a href="https://www.instagram.com/bcrechorizon.offical?igsh=MWE3ajBzdmxneDZzOQ==" class="flex items-center justify-center gap-3 bg-gray-700/30 hover:bg-blue-600/30 p-4 rounded-xl transition-all duration-300 group border border-gray-600/50 hover:border-blue-500/50">
+                            <i class="fab fa-instagram text-2xl group-hover:scale-110 transition-transform"></i>
+                            
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029Vb6a2IZDzgT6z0uYLD2W" class="flex items-center justify-center gap-3 bg-gray-700/30 hover:bg-blue-600/30 p-4 rounded-xl transition-all duration-300 group border border-gray-600/50 hover:border-blue-500/50">
+                            <i class="fab fa-whatsapp text-2xl group-hover:scale-110 transition-transform"></i>
+                        
+                        </a>
+                        <a href="https://www.youtube.com/@BCREC" class="flex items-center justify-center gap-3 bg-gray-700/30 hover:bg-blue-600/30 p-4 rounded-xl transition-all duration-300 group border border-gray-600/50 hover:border-blue-500/50">
+                            <i class="fab fa-youtube text-2xl group-hover:scale-110 transition-transform"></i>
+                            
+                        </a>
+                        <a href="#" class="flex items-center justify-center gap-3 bg-gray-700/30 hover:bg-blue-600/30 p-4 rounded-xl transition-all duration-300 group border border-gray-600/50 hover:border-blue-500/50">
+                            <i class="fab fa-facebook text-2xl group-hover:scale-110 transition-transform"></i>
+                        
+                        </a>
+                    </div>
+                </div>
+            </div></div>
+        </div>
+        <div class="absolute buttom-0 inset-0 bg-gradient-to-b from-transparent to-[#05050a]"></div>
+    </section>
+
+    <script>
+    // Set your EVENT DATE here
+    const eventDate = new Date("2026-02-10T09:00:00").getTime();
+
+    function startCountdown() {
+      const now = new Date().getTime();
+      const distance = eventDate - now;
+
+      if (distance <= 0) {
+        document.querySelector("h1").innerText = "Event Is Live!";
+        ["days", "hours", "minutes", "seconds"].forEach(id => {
+          document.getElementById(id).innerText = "00";
+        });
+        return;
+      }
+
+      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((distance / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((distance / (1000 * 60)) % 60);
+      const seconds = Math.floor((distance / 1000) % 60);
+
+      document.getElementById("days").innerText = String(days).padStart(2, "0");
+      document.getElementById("hours").innerText = String(hours).padStart(2, "0");
+      document.getElementById("minutes").innerText = String(minutes).padStart(2, "0");
+      document.getElementById("seconds").innerText = String(seconds).padStart(2, "0");
+    }
+
+    setInterval(startCountdown, 1000);
+    startCountdown();
+  </script>
+
+
+    
+    <div class="block lg:hidden p-2 h-full w-auto m-4 text-white">
+        <div class="p-2 w-full bg-gray-800/40 backdrop-blur-sm border border-gray-700/50 rounded-2xl">
+            <!-- <h2 class="sujoy2">Guest</h2> -->
+            <div class="p-1 w-full flex justify-center items-center">
+                <img src="/images/avatars.jpg" alt="guest" class="h-42 w-auto rounded-2xl">
+            </div>
+            <p class="sujoy1 p-2">Our guest will be revealed soon. We are excited to welcome a special presence who will add great value to this event. Stay tuned for the announcement.</p>
+            <button class="bg-gradient-to-r mt-2 from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 px-6 py-3 sujoy2 rounded-lg w-full transition-all duration-300 transform hover:-translate-y-1 hover:shadow-lg hover:shadow-blue-900/30">
+                    View Profile →
+            </button>
+        </div>
+    </div>
+
+    <div class="block lg:hidden mx-4 md:mx-6 text-white bg-gray-800/40 backdrop-blur-sm rounded-2xl border border-gray-700/50 px-2 py-3">
+            <div class="gap-4 flex justify-between w-full">
+                <a href="https://www.instagram.com/bcrechorizon.offical?igsh=MWE3ajBzdmxneDZzOQ==" class="flex w-full items-center justify-center gap-3 bg-gray-700/30 hover:bg-blue-600/30 p-4 rounded-xl transition-all duration-300 group border border-gray-600/50 hover:border-blue-500/50">
+                    <i class="fab fa-instagram text-2xl group-hover:scale-110 transition-transform"></i>
+                    
+                </a>
+                <a href="https://whatsapp.com/channel/0029Vb6a2IZDzgT6z0uYLD2W" class="flex w-full items-center justify-center gap-3 bg-gray-700/30 hover:bg-blue-600/30 p-4 rounded-xl transition-all duration-300 group border border-gray-600/50 hover:border-blue-500/50">
+                    <i class="fab fa-whatsapp text-2xl group-hover:scale-110 transition-transform"></i>
+                
+                </a>
+                <a href="https://www.youtube.com/@BCREC" class="flex w-full items-center justify-center gap-3 bg-gray-700/30 hover:bg-blue-600/30 p-4 rounded-xl transition-all duration-300 group border border-gray-600/50 hover:border-blue-500/50">
+                    <i class="fab fa-youtube text-2xl group-hover:scale-110 transition-transform"></i>
+                    
+                </a>
+                <a href="#" class="flex w-full items-center justify-center gap-3 bg-gray-700/30 hover:bg-blue-600/30 p-4 rounded-xl transition-all duration-300 group border border-gray-600/50 hover:border-blue-500/50">
+                    <i class="fab fa-facebook text-2xl group-hover:scale-110 transition-transform"></i>
+                
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <section class="h-auto w-full py-6 px-4 md:px-12 flex flex-col lg:flex-row justify-center gap-4 items-center">
+        <div class="w-full lg:max-w-4xl sujoy1 text-white p-6 rounded-lg flex flex-col md:flex-row gap-6 bg-gray-800/40 backdrop-blur-sm rounded-2xl border border-gray-700/50">
+  
+            <div class="w-full md:w-3/4">
+                <p class="text-lg leading-relaxed mb-4">
+                Dear Sir/Madam,
+                </p>
+
+                <p class="text-md leading-relaxed mb-4">
+                It’s a great pleasure to welcome you for the Annual Tech Fest
+                <span class="font-semibold">HORIZON 2K26</span>. For an Engineering
+                College, Technical Festival is like a real festive season for the
+                students and faculties to celebrate. This is also an opportunity to
+                showcase the talent each student have, which may not reflect in the
+                grade scores.
+                </p>
+
+                <p class="text-md leading-relaxed mb-6">
+                My best wishes to all and enjoy the festival.
+                </p>
+
+                <p class="text-md leading-relaxed">
+                Best regards,<br />
+                <span class="font-semibold">Prof. Sanjay S. Pawar</span><br />
+                Principal<br />
+                Dr. B. C. Roy Engineering College
+                </p>
+            </div>
+
+            <div class="md:w-1/4 flex justify-center items-start">
+                <img
+                src="/images/principal.jpg"
+                alt="Principal"
+                class="w-auto h-42 object-cover rounded-md border-2 border-gray-700/50"
+                />
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="h-auto w-full p-4 flex flex-col justify-center items-center text-white">
+      <h2 class="sujoy2 text-6xl text-center">About Techfest</h2>
+
+      <div class="p-4 mt-8 max-w-6xl h-auto flex flex-col items-center justify-center shadow-md bg-gray-800/40 backdrop-blur-sm rounded-2xl border border-gray-700/50">
+        <h2 class="sujoy1 text-6xl text-center">Horizon 2K26</h2>
+        <p class="sujoy1 mt-4 text-center">Horizon, our annual tech fest, is a dynamic convergence of innovation and learning. Featuring diverse tech events, workshops, and competitions, it serves as a platform for continuous skill development. From hackathons and robotics challenges to insightful seminars by industry leaders, Horizon explores the cutting edge of technology. Attendees engage in hands-on experiences, collaborative projects, and networking opportunities. This vibrant celebration fosters a culture of curiosity, pushing the boundaries of what's possible in the tech world. Horizon is not just an event; it's a beacon for tech enthusiasts to ignite their passion and explore new frontiers in the ever-evolving tech landscape.</p>
+        <img src="/images/asset 3.svg" alt="asset" class="w-full h-48 mt-8">
+      </div>
+
+
+    </section>
+
+    <div class="relative w-full max-w-6xl group overflow-hidden rounded-2xl shadow-2xl px-4 lg:px-0 mx-auto">
+
+      <!-- Slides -->
+      <div id="slides" class="relative h-[420px]">
+        <img src="https://picsum.photos/id/1003/900/500" class="slide absolute rounded-2xl inset-0 w-full h-full object-cover opacity-0 transition-all duration-1000">
+        <img src="https://picsum.photos/id/1011/900/500" class="slide absolute rounded-2xl inset-0 w-full h-full object-cover opacity-0 transition-all duration-1000">
+        <img src="https://picsum.photos/id/1015/900/500" class="slide absolute rounded-2xl inset-0 w-full h-full object-cover opacity-0 transition-all duration-1000">
+      </div>
+
+      <!-- Overlay -->
+      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+
+      <!-- Buttons -->
+      <button id="prev" class="absolute left-3 top-1/2 -translate-y-1/2 bg-black/60 text-white px-3 py-2 rounded-full opacity-0 group-hover:opacity-100">❮</button>
+      <button id="next" class="absolute right-3 top-1/2 -translate-y-1/2 bg-black/60 text-white px-3 py-2 rounded-full opacity-0 group-hover:opacity-100">❯</button>
+
+    </div>
+
+    <script>
+      const slides = document.querySelectorAll(".slide");
+      const progress = document.getElementById("progress");
+      let index = 0;
+      let timer;
+
+      function showSlide(i) {
+        slides.forEach((s, n) => {
+          s.style.opacity = n === i ? "1" : "0";
+        });
+        progress.style.width = "0%";
+        setTimeout(() => progress.style.width = "100%", 50);
+      }
+
+      function next() {
+        index = (index + 1) % slides.length;
+        showSlide(index);
+      }
+
+      function prev() {
+        index = (index - 1 + slides.length) % slides.length;
+        showSlide(index);
+      }
+
+      document.getElementById("next").onclick = next;
+      document.getElementById("prev").onclick = prev;
+
+      // Auto
+      function start() {
+        timer = setInterval(next, 5000);
+      }
+      function stop() {
+        clearInterval(timer);
+      }
+
+      document.querySelector(".group").addEventListener("mouseenter", stop);
+      document.querySelector(".group").addEventListener("mouseleave", start);
+
+      document.addEventListener("keydown", e => {
+        if (e.key === "ArrowRight") next();
+        if (e.key === "ArrowLeft") prev();
+      });
+
+      showSlide(0);
+      start();
+    </script>
+
+    <section id="sponsors" class="h-auto w-full p-4 flex flex-col justify-center items-center text-white">
+        <h2 class="sujoy2 text-5xl md:text-6xl">Sponsorship</h2>
+
+        <div
+            id="sponsor-container"
+            class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mt-8"
+        ></div>
+
+    </section>
+
+    <script>
+    fetch("sponsors.json")
+    .then((response) => response.json())
+    .then((sponsors) => {
+      const container = document.getElementById("sponsor-container");
+
+      sponsors.forEach((sponsor) => {
+        const card = document.createElement("div");
+        card.className =
+          "p-4 h-auto flex flex-col items-center justify-center shadow-md bg-gray-800/40 backdrop-blur-sm rounded-2xl border border-gray-700/50";
+
+        card.innerHTML = `
+          <img 
+            src="${sponsor.logo}" 
+            alt="${sponsor.name}" 
+            class="max-h-32 object-contain mb-4"
+          />
+          <p class="text-xl sujoy2 text-white font-semibold text-center">
+            ${sponsor.name}
+          </p>
+        `;
+
+        container.appendChild(card);
+      });
+    })
+    .catch((error) => console.error("Error loading sponsors:", error));
+</script>
+
+<section id="sponsors" class="h-auto w-full p-4 flex flex-col justify-center items-center text-white">
+        <h2 class="sujoy2 text-5xl text-center md:text-6xl">Technical Sponsorship</h2>
+
+        <div  class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center mt-12">
+          <img src="/images/images.png" alt="t-sponsor">
+          <img src="/images/images (1).jpg" alt="t-sponsor">
+          <img src="/images/images (1).png" alt="t-sponsor">
+          <img src="/images/images (2).jpg" alt="t-sponsor">
+          <img src="/images/IEI.png" alt="t-sponsor">
+          <img src="/images/images (2).png" alt="t-sponsor">
+          <img src="/images/images.jpg" alt="t-sponsor">
+        </div>
+
+    </section>
+
+
+<section class="w-full p-4 text-white">
+  <h2 class="sujoy2 text-6xl text-center mb-12">Special Event</h2>
+
+  <div class="max-w-5xl mx-auto p-2 flex flex-col md:flex-row md:justify-between gap-10 bg-gray-800/40 backdrop-blur-sm rounded-2xl border border-gray-700/50">
+    <div class="py-2 px-4 w-auto text-xl">
+      <p class="sujoy1">The Science Exhibition at Horizon highlights innovation, creativity, and scientific thinking among students. It features working models, research-based projects, and real-world solutions that demonstrate how science and technology can solve everyday problems and shape a better future.</p>
+      <p class="sujoy1 mt-4">Through this exhibition, participants get a platform to showcase their ideas, explore emerging technologies, and develop a spirit of curiosity and experimentation. Horizon encourages young minds to think beyond textbooks and turn imagination into impactful scientific innovations.</p>
+    </div>
+    <div class="w-4xl rounded-full h-auto">
+      <img src="/eventposter/slide03.jpeg" alt="specal event" class="w-full h-full">
+    </div>
+  </div>
+</section>
+
+<section id="events" class="w-full p-8 text-white">
+  <h2 class="sujoy2 text-6xl text-center mb-12">Events</h2>
+
+  <div
+    id="events-container"
+    class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto"
+  ></div>
+</section>
+
+
+<script>
+  fetch("events.json")
+    .then((res) => res.json())
+    .then((events) => {
+      const container = document.getElementById("events-container");
+
+      events.forEach((event) => {
+        const date = new Date(event.date);
+
+        const card = document.createElement("div");
+        card.className =
+          "h-auto bg-gray-800/40 backdrop-blur-sm rounded-2xl border border-gray-700/50 overflow-hidden shadow-lg hover:scale-105 transition duration-300";
+
+        card.innerHTML = `
+          <img
+            src="${event.image}"
+            alt="${event.title}"
+            class="w-auto h-auto object-cover"
+          />
+
+          <div class="p-5">
+            <h3 class="text-4xl sujoy1 font-bold mb-2">${event.title}</h3>
+
+            <p class="text-md text-gray-200 mb-3 line-clamp-3 sujoy1">
+              ${event.description}
+            </p>
+
+            <p class="text-md sujoy1 text-gray-300 mb-4">
+              📅 ${date.toDateString()} | ⏰ ${date.toLocaleTimeString([], {
+                hour: "2-digit",
+                minute: "2-digit",
+              })}
+            </p>
+          </div>
+        `;
+
+        container.appendChild(card);
+      });
+    })
+    .catch((err) => console.error("Failed to load events:", err));
+</script>
+
+<script>
+  window.addEventListener("load", () => {
+    const loader = document.getElementById("loader");
+    setTimeout(() => {
+      loader.style.top = "-100%";
+      loader.classList.add("hide");
+    }, 3000);
+  });
+</script>
+
+
+<section class="text-white py-12">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-5xl sujoy2 font-bold text-center mb-8">Frequently Asked Questions</h2>
+
+    <div class="space-y-4">
+      <!-- FAQ Item -->
+      <details class="group bg-gray-800/40 backdrop-blur-sm  rounded-lg p-5">
+        <summary class="flex sujoy1 cursor-pointer items-center justify-between font-medium list-none">
+          What is Horizon2k26?
+          <span class="transition sujoy1 group-open:rotate-180">⌄</span>
+        </summary>
+        <p class="mt-3 sujoy1 text-zinc-400">
+          Horizon2k26 is the biggest technical event in BCREC.
+        </p>
+      </details>
+
+      <details class="group bg-gray-800/40 backdrop-blur-sm  rounded-lg p-5">
+        <summary class="flex sujoy1 cursor-pointer items-center justify-between font-medium list-none">
+          What are dates and timing of the event?
+          <span class="transition group-open:rotate-180">⌄</span>
+        </summary>
+        <p class="mt-3 sujoy1 text-zinc-400">
+          The event will start at 10AM on 10th Feb and will be till 11th of Feb 5PM.
+        </p>
+      </details>
+
+      <details class="group bg-gray-800/40 backdrop-blur-sm  rounded-lg p-5">
+        <summary class="flex sujoy1 cursor-pointer items-center justify-between font-medium list-none">
+          How can I participate in the event?
+          <span class="transition group-open:rotate-180">⌄</span>
+        </summary>
+        <p class="mt-3 sujoy1 text-zinc-400">
+          Explore various events and fill the form.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section class="py-12">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-6xl sujoy2 font-bold text-white text-center mb-10">
+      Find Us
+    </h2>
+
+      <div class="relative overflow-hidden rounded-xl shadow-2xl">
+        <iframe
+          class="w-full h-80"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.6663459632227!2d87.33997387590026!3d23.54450004664883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f7702b5678153d%3A0x4ff5ac811ba3184b!2sDr.%20B.%20C.%20Roy%20Engineering%20College!5e0!3m2!1sen!2sin!4v1768723143861!5m2!1sen!2sin"
+          loading="lazy"
+        ></iframe>
+      </div>
+  </div>
+</section>
+
+
+<footer class="border-t border-white/10">
+  <div class="text-center sujoy1 py-6 text-sm text-zinc-500 border-t border-white/10">
+    © 2026 techfest bcrec. All rights reserved to Mayank Manohar & Sujay Garai.
+  </div>
+</footer>
+
+
+</body>
+</html>

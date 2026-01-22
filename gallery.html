@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Gallery</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+
+  @font-face {
+  font-family: 'MyFont';
+  src: url('imax.ttf') format('truetype');
+}
+    .sujoy1 {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    /* .sujoy2 {
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    } */
+
+    .sujoy2{
+      font-family: MyFont;
+    }
+</style>
+<body>
+
+    <!-- Header -->
+    <header class="shadow p-6 text-center">
+        <h1 class="text-4xl md:text-6xl font-bold text-white sujoy2">Events Gallery</h1>
+        <p class="text-gray-500 mt-2 sujoy1">Our recent event moments</p>
+    </header>
+
+    <!-- Gallery -->
+    <main class="max-w-6xl mx-auto p-6">
+        <div id="gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8"></div>
+    </main>
+
+    <!-- JavaScript -->
+    <script>
+        const imageFolder = "gallery/";
+        const images = [
+        ];
+
+        const gallery = document.getElementById("gallery");
+
+        images.forEach(image => {
+            const img = document.createElement("img");
+            img.src = imageFolder + image;
+            img.alt = "Event Image";
+            img.className = "w-full h-64 object-cover rounded-lg shadow hover:scale-105 transition duration-300";
+            gallery.appendChild(img);
+        });
+    </script>
+
+</body>
+</html>

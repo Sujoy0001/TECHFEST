@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Mayank Manohar",
+    "role": "Overall Coordinator",
+    "department": "Tech",
+    "image": "/Pic/mayank.jpg"
+  },
+  {
+    "name": "Sujoy Garai",
+    "role": "Technical Lead",
+    "department": "Tech",
+    "image": "/Pic/sujoygarai.jpeg"
+  }
+]

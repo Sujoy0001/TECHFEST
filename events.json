@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Techackatron",
+    "description": "Present innovative technical ideas and solutions to a panel of experts. Participants will engage in a Q&A session to defend their ideas",
+    "date": "2026-02-00T09:00:00",
+    "image": "/eventposter/Techacktron.jpg",
+    "form": "https://forms.gle/yourformlink"
+  },
+  {
+    "id": 2,
+    "title": "QuizBuzz",
+    "description": "Designe to test participant's knowledge under pressure. Questions span various topics, ensuring a stimulating and competitive environment for all participants.",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/slide01.png",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 3,
+    "title": "ShotOn",
+    "description": "CineTrix and Animation is a creative platform for aspiring filmmakers and animators to showcase their storytelling abilities through short films and animations.",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/ShotOn.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 4,
+    "title": "Game Of Throne",
+    "description": "A competitive gaming event where participants showcase their strategic and technical skills across two major competitions: PUBG (online) and FIFA (offline).",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/got.png",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 5,
+    "title": "Papyrus",
+    "description": "Technical Poster Presentation, showcasing groundbreaking ideas and innovations.",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/Papyrus.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 6,
+    "title": "RoboTrix & Virtual Visionaries Battel",
+    "description": "i) maze-solving robots ii)  All-Terrain Vehicle (ATV) for disaster management iii) Robo war",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/RoboTrix.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 7,
+    "title": "CircuiTrix",
+    "description": "Solve the puzzle of Circuits & Find the missing components",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/circuitrix.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 8,
+    "title": "Y- Combinator",
+    "description": "Website Design Competition & Showcase UI/UX design interface for web or mobile application",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/Y-Combinator.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 9,
+    "title": "Code it now",
+    "description": "Coding competition where participants compete in two categories: fastest code execution and least backspace usage. ",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/code it now.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 10,
+    "title": "Bug Bounty",
+    "description": "A bug-fixing competition where participants find and fix bugs in codebases.",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/BugBounty.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 11,
+    "title": "HackMaze",
+    "description": "Problem-solving challenge where participants navigate mazes and grid-based puzzles to arrive at optimal solutions. ",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/slide02.jpeg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 12,
+    "title": "Build India",
+    "description": "innovative projects promoting sustainable growth, aligning with the 'Make in India' scheme. Round1- project model presentation. Round2- present project ideas.",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/BuildIndia.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 13,
+    "title": "Startup Synergy",
+    "description": "Business Plan Pitch Competition where participents present their innovative startup ideas",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/Startup Synergy.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 14,
+    "title": "Mechvation",
+    "description": "i) Mechanical drawing and design contest ii) Mechanical puzzle and tricky problems",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/Mechvation.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  },
+  {
+    "id": 15,
+    "title": "ARCHEON",
+    "description": "Where Strength Meets Design is an arch model–making competition where participants design, build, and test structurally efficient arches using limited materials.",
+    "date": "2025-01-00T14:00:00",
+    "image": "/eventposter/Archeon.jpg",
+    "form": "https://forms.gle/yourformlink2"
+  }
+]

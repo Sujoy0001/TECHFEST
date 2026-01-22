@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    /* background-image: url('/images/bggg.gif'); */
+    /* background-color: black; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: radial-gradient(
+    ellipse at center,
+    #071526 0%,
+    #05050a 60%
+  );
+}
+
+.f2{
+    font-size: 72px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-co{
+    background-image: url(/images//bggg.gif);
+}
+
+
+#loader {
+  height: 100vh;
+  width: 100vw;
+  background: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease 0.8s;
+}
+
+#loader h1 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 52px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  position: absolute;
+  opacity: 0;
+  color: transparent;
+  background: linear-gradient(to right, #38bdf8, #22d3ee);
+  -webkit-background-clip: text;
+  animation: load 1s linear forwards;
+}
+
+#loader h1:nth-child(1) { font-size: 3.5vw; }
+#loader h1:nth-child(2) { font-size: 5vw; animation-delay: 1s; }
+#loader h1:nth-child(3) { font-size: 4vw; animation-delay: 2s; }
+
+@keyframes load {
+  0%   { opacity: 0; }
+  10%  { opacity: 1; }
+  90%  { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#loader {
+  pointer-events: all;
+}
+
+#loader.hide {
+  pointer-events: none;
+}
+
+.filter-btn {
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  font-family: 'Orbitron', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: rgba(56,189,248,0.25);
+  box-shadow: 0 0 15px rgba(56,189,248,0.6);
+}
+
+.team-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    circle at var(--x, 50%) var(--y, 50%),
+    rgba(56,189,248,0.25),
+    transparent 60%
+  );
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.team-card:hover::before {
+  opacity: 1;
+}
+
+.team-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(56,189,248,0.4);
+}
+
+.filter-btn.active {
+  background: rgba(56,189,248,0.35);
+  box-shadow: 0 0 20px rgba(56,189,248,0.7);
+}
+
+.team-card::before {
+  background: radial-gradient(
+    circle at var(--x, 50%) var(--y, 50%),
+    rgba(56,189,248,0.25),
+    transparent 60%
+  );
+}

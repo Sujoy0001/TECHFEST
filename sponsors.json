@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Company One",
+    "logo": "images/avatars.jpg"
+  },
+  {
+    "name": "Company Two",
+    "logo": "images/avatars.jpg"
+  },
+  {
+    "name": "Company Three",
+    "logo": "images/avatars.jpg"
+  }
+]

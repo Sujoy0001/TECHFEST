@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TEAM HORIZON</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Rammetto+One&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet" />
+</head>
+
+<style>
+
+  @font-face {
+  font-family: 'MyFont';
+  src: url('imax.ttf') format('truetype');
+}
+    .sujoy1 {
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+    /* .sujoy2 {
+    font-family: "Rammetto One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    } */
+
+    .sujoy2{
+      font-family: MyFont;
+    }
+</style>
+
+<body>
+
+<section class="w-full p-8 text-white">
+
+  <!-- TITLE -->
+  <h2 class="sujoy2 text-6xl text-center mb-6">Meet The Team</h2>
+
+  <!-- FILTER BUTTONS -->
+  <div class="flex justify-center gap-5 mb-14">
+    <button onclick="filterTeam('All')" class="filter-btn active sujoy2">All</button>
+    <button onclick="filterTeam('Tech')" class="filter-btn sujoy2">Tech</button>
+    <button onclick="filterTeam('Design')" class="filter-btn sujoy2">Design</button>
+  </div>
+
+  <!-- TEAM GRID -->
+  <div
+    id="team-container"
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 max-w-7xl mx-auto"
+  ></div>
+
+</section>
+
+<!-- TEAM DATA + FILTER LOGIC -->
+<script>
+  let allMembers = [];
+
+  fetch("team.json")
+    .then(res => res.json())
+    .then(team => {
+      allMembers = team;
+      renderTeam(team);
+    })
+    .catch(err => console.error("Team load error:", err));
+
+  function renderTeam(team) {
+    const container = document.getElementById("team-container");
+    container.innerHTML = "";
+
+    team.forEach(member => {
+      const card = document.createElement("div");
+
+      card.className = `
+        team-card
+        bg-gray-800/40 backdrop-blur-sm
+        rounded-2xl border border-gray-700/50
+        p-6 text-center
+        transition duration-300
+      `;
+
+      card.innerHTML = `
+        <img
+          src="${member.image}"
+          alt="${member.name}"
+          class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-cyan-400 mb-5"
+        />
+
+        <h3 class="text-xl sujoy1 font-semibold sujoy2">${member.name}</h3>
+        <p class="text-sm text-cyan-400 sujoy1 mt-1 sujoy1">${member.role}</p>
+        <span class="text-xs text-gray-400 mt-2 block sujoy2">${member.department}</span>
+      `;
+
+      container.appendChild(card);
+    });
+  }
+
+  function filterTeam(dept) {
+    const buttons = document.querySelectorAll(".filter-btn");
+    buttons.forEach(b => b.classList.remove("active"));
+    event.target.classList.add("active");
+
+    if (dept === "All") {
+      renderTeam(allMembers);
+    } else {
+      renderTeam(allMembers.filter(m => m.department === dept));
+    }
+  }
+</script>
+
+<!-- SPOTLIGHT CURSOR EFFECT -->
+<script>
+  document.addEventListener("mousemove", e => {
+    document.querySelectorAll(".team-card").forEach(card => {
+      const rect = card.getBoundingClientRect();
+      card.style.setProperty("--x", `${e.clientX - rect.left}px`);
+      card.style.setProperty("--y", `${e.clientY - rect.top}px`);
+    });
+  });
+</script>
+
+</body>
+</html>
