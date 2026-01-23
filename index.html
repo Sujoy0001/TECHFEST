@@ -299,70 +299,97 @@
 
     </section>
 
-    <div class="relative w-full max-w-6xl group overflow-hidden rounded-2xl shadow-2xl px-4 lg:px-0 mx-auto">
+   <div class="relative w-full max-w-6xl group overflow-hidden rounded-2xl shadow-2xl px-4 lg:px-0 mx-auto">
 
-      <!-- Slides -->
-      <div id="slides" class="relative h-[420px]">
-        <img src="https://picsum.photos/id/1003/900/500" class="slide absolute rounded-2xl inset-0 w-full h-full object-cover opacity-0 transition-all duration-1000">
-        <img src="https://picsum.photos/id/1011/900/500" class="slide absolute rounded-2xl inset-0 w-full h-full object-cover opacity-0 transition-all duration-1000">
-        <img src="https://picsum.photos/id/1015/900/500" class="slide absolute rounded-2xl inset-0 w-full h-full object-cover opacity-0 transition-all duration-1000">
-      </div>
+  <!-- Slides -->
+  <div class="relative h-[480px]">
+    <img src="/slide/slide1.jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/slide2.jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/slide3.jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/slide4.jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/slide5.jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+  </div>
 
-      <!-- Overlay -->
-      <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
 
-      <!-- Buttons -->
-      <button id="prev" class="absolute left-3 top-1/2 -translate-y-1/2 bg-black/60 text-white px-3 py-2 rounded-full opacity-0 group-hover:opacity-100">❮</button>
-      <button id="next" class="absolute right-3 top-1/2 -translate-y-1/2 bg-black/60 text-white px-3 py-2 rounded-full opacity-0 group-hover:opacity-100">❯</button>
+  <!-- Buttons -->
+  <button id="prev" class="absolute left-3 top-1/2 -translate-y-1/2 bg-black/60 text-white px-3 py-2 rounded-full opacity-0 group-hover:opacity-100">❮</button>
+  <button id="next" class="absolute right-3 top-1/2 -translate-y-1/2 bg-black/60 text-white px-3 py-2 rounded-full opacity-0 group-hover:opacity-100">❯</button>
 
-    </div>
+  <!-- Progress bar -->
+  <div class="absolute bottom-0 left-0 w-full h-1 bg-white/20">
+    <div id="progress" class="h-full w-0 bg-white transition-all duration-[2000ms]"></div>
+  </div>
 
-    <script>
-      const slides = document.querySelectorAll(".slide");
-      const progress = document.getElementById("progress");
-      let index = 0;
-      let timer;
+</div>
 
-      function showSlide(i) {
-        slides.forEach((s, n) => {
-          s.style.opacity = n === i ? "1" : "0";
-        });
-        progress.style.width = "0%";
-        setTimeout(() => progress.style.width = "100%", 50);
-      }
+<script>
+document.addEventListener("DOMContentLoaded", () => {
 
-      function next() {
-        index = (index + 1) % slides.length;
-        showSlide(index);
-      }
+  const slides = document.querySelectorAll(".slide");
+  const progress = document.getElementById("progress");
+  const container = document.querySelector(".group");
 
-      function prev() {
-        index = (index - 1 + slides.length) % slides.length;
-        showSlide(index);
-      }
+  let index = 0;
+  let timer;
+  const DURATION = 5000;
 
-      document.getElementById("next").onclick = next;
-      document.getElementById("prev").onclick = prev;
+  function showSlide(i) {
+    slides.forEach((s, n) => {
+      s.style.opacity = n === i ? "1" : "0";
+    });
 
-      // Auto
-      function start() {
-        timer = setInterval(next, 5000);
-      }
-      function stop() {
-        clearInterval(timer);
-      }
+    progress.style.transition = "none";
+    progress.style.width = "0%";
 
-      document.querySelector(".group").addEventListener("mouseenter", stop);
-      document.querySelector(".group").addEventListener("mouseleave", start);
+    requestAnimationFrame(() => {
+      progress.style.transition = `width ${DURATION}ms linear`;
+      progress.style.width = "100%";
+    });
+  }
 
-      document.addEventListener("keydown", e => {
-        if (e.key === "ArrowRight") next();
-        if (e.key === "ArrowLeft") prev();
-      });
+  function next() {
+    index = (index + 1) % slides.length;
+    showSlide(index);
+  }
 
-      showSlide(0);
-      start();
-    </script>
+  function prev() {
+    index = (index - 1 + slides.length) % slides.length;
+    showSlide(index);
+  }
+
+  function start() {
+    stop();
+    timer = setInterval(next, DURATION);
+  }
+
+  function stop() {
+    clearInterval(timer);
+  }
+
+  document.getElementById("next").onclick = () => {
+    stop(); next(); start();
+  };
+
+  document.getElementById("prev").onclick = () => {
+    stop(); prev(); start();
+  };
+
+  container.addEventListener("mouseenter", stop);
+  container.addEventListener("mouseleave", start);
+
+  document.addEventListener("keydown", e => {
+    if (e.key === "ArrowRight") { stop(); next(); start(); }
+    if (e.key === "ArrowLeft") { stop(); prev(); start(); }
+  });
+
+  showSlide(0);
+  start();
+
+});
+</script>
+
 
     <section id="sponsors" class="h-auto w-full p-4 flex flex-col justify-center items-center text-white">
         <h2 class="sujoy2 text-5xl md:text-6xl">Sponsorship</h2>
