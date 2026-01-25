@@ -47,8 +47,9 @@
   <!-- FILTER BUTTONS -->
   <div class="flex justify-center gap-5 mb-14">
     <button onclick="filterTeam('All')" class="filter-btn active sujoy2">All</button>
-    <button onclick="filterTeam('Tech')" class="filter-btn sujoy2">Tech</button>
-    <button onclick="filterTeam('Design')" class="filter-btn sujoy2">Design</button>
+    <button onclick="filterTeam('Core')" class="filter-btn sujoy2">Core Committee</button>
+    <button onclick="filterTeam('Tech')" class="filter-btn sujoy2">Technical</button>
+    <button onclick="filterTeam('PR')" class="filter-btn sujoy2">PR</button>
   </div>
 
   <!-- TEAM GRID -->
@@ -84,33 +85,57 @@
         rounded-2xl border border-gray-700/50
         p-6 text-center
         transition duration-300
+        relative
       `;
 
       card.innerHTML = `
-        <img
-          src="${member.image}"
-          alt="${member.name}"
-          class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-cyan-400 mb-5"
-        />
+        <a
+          href="${member.instagram}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="absolute top-4 right-4 text-cyan-400 hover:text-pink-500 transition transform hover:scale-110 z-10"
+          aria-label="Instagram"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+            class="w-8 h-8"
+          >
+            <path d="M7.75 2h8.5C19.55 2 22 4.45 22 7.75v8.5C22 19.55 19.55 22 16.25 22h-8.5C4.45 22 2 19.55 2 16.25v-8.5C2 4.45 4.45 2 7.75 2zm0 1.5C5.29 3.5 3.5 5.29 3.5 7.75v8.5c0 2.46 1.79 4.25 4.25 4.25h8.5c2.46 0 4.25-1.79 4.25-4.25v-8.5c0-2.46-1.79-4.25-4.25-4.25h-8.5z"/>
+            <path d="M12 7a5 5 0 100 10 5 5 0 000-10zm0 1.5a3.5 3.5 0 110 7 3.5 3.5 0 010-7z"/>
+            <circle cx="17.5" cy="6.5" r="1.2"/>
+          </svg>
+        </a>
 
-        <h3 class="text-xl sujoy1 font-semibold sujoy2">${member.name}</h3>
-        <p class="text-sm text-cyan-400 sujoy1 mt-1 sujoy1">${member.role}</p>
-        <span class="text-xs text-gray-400 mt-2 block sujoy2">${member.department}</span>
+        <!-- Avatar -->
+        <div class="relative">
+          <img
+            src="${member.image}"
+            alt="${member.name}"
+            class="w-36 h-36 mx-auto rounded-full object-cover border-4 border-cyan-400 shadow-lg group-hover:scale-105 transition"
+          />
+        </div>
+
+        <!-- Text -->
+        <h3 class="mt-6 text-xl font-medium text-white sujoy1">${member.name}</h3>
+        <p class="text-cyan-400 text-sm mt-1 sujoy1">${member.role}</p>
+        <span class="text-gray-400 text-xs block mt-1 sujoy2">${member.department}</span>
       `;
 
       container.appendChild(card);
     });
   }
 
-  function filterTeam(dept) {
+  function filterTeam(team) {
     const buttons = document.querySelectorAll(".filter-btn");
     buttons.forEach(b => b.classList.remove("active"));
     event.target.classList.add("active");
 
-    if (dept === "All") {
+    if (team === "All") {
       renderTeam(allMembers);
     } else {
-      renderTeam(allMembers.filter(m => m.department === dept));
+      renderTeam(allMembers.filter(m => m.team === team));
     }
   }
 </script>

@@ -1,14 +1,74 @@
 [
   {
-    "name": "Mayank Manohar",
-    "role": "Overall Coordinator",
-    "department": "Tech",
-    "image": "/Pic/mayank.jpg"
+    "name": "Ravikant Raj",
+    "role": "Core Committee",
+    "department": "ECE",
+    "image": "/Pic/unkhown.jpg",
+    "team": "Core",
+    "instagram": "https://www.instagram.com/mr_ravi._.010?igsh=MXA0N3A1MmFiZjJyYw=="
+  },
+  {
+    "name": "Shaumya Raj",
+    "role": "Core Committee",
+    "department": "CSE",
+    "image": "/Pic/shaumya.jpg",
+    "team": "Core",
+    "instagram": ""
+  },
+  {
+    "name": "Kaushal Kumar",
+    "role": "Core Committee",
+    "department": "CSE",
+    "image": "/Pic/kaushal.jpg",
+    "team": "Core",
+    "instagram": "https://www.instagram.com/kaushalyadav_04?igsh=MXdiYnp5OWYxcTA0OA%3D%3D&utm_source=qr"
   },
   {
     "name": "Sujoy Garai",
-    "role": "Technical Lead",
-    "department": "Tech",
-    "image": "/Pic/sujoygarai.jpeg"
+    "role": "Technical Team",
+    "department": "CSE",
+    "image": "/Pic/sujoygarai.jpeg",
+    "team": "Tech",
+    "instagram": "https://www.instagram.com/_sujoygarai_"
+  },
+  {
+    "name": "Mayank Manohar",
+    "role": "Technical Team",
+    "department": "CSE",
+    "image": "/Pic/mayank.jpg",
+    "team": "Tech",
+    "instagram": "https://www.instagram.com/manohar_mayank?igsh=eHZ2OHo4d3dpMm1r"
+  },
+  {
+    "name": "Supriyo Maji",
+    "role": "Core Committee",
+    "department": "CSD",
+    "image": "/Pic/Supriyo.jpeg",
+    "team": "Core",
+    "instagram": "https://www.instagram.com/supriyo__19"
+  },
+  {
+    "name": "Ratnesh Kumar Mandal",
+    "role": "Core Committee",
+    "department": "IT",
+    "image": "/Pic/unkhown.jpg",
+    "team": "Core",
+    "instagram": ""
+  },
+  {
+    "name": "Md Faaiz Khan",
+    "role": "Core Committee",
+    "department": "DS",
+    "image": "/Pic/unkhown.jpg",
+    "team": "Core",
+    "instagram": ""
+  },
+  {
+    "name": "Praveen Kumar mondal",
+    "role": "Core Committee",
+    "department": "EE",
+    "image": "/Pic/unkhown.jpg",
+    "team": "Core",
+    "instagram": "https://www.instagram.com/mr_unique_27_90?igsh=MWY4bnp6cWxoZjZmNg=="
   }
 ]
