@@ -3,41 +3,57 @@
     "name": "Ravikant Raj",
     "role": "Core Committee",
     "department": "ECE",
-    "image": "/Pic/unkhown.jpg",
+    "image": "/Pic/ravikant.jpg",
     "team": "Core",
     "instagram": "https://www.instagram.com/mr_ravi._.010?igsh=MXA0N3A1MmFiZjJyYw=="
+  },
+  {
+    "name": "Vikash Kumar",
+    "role": "Core Committee",
+    "department": "CIVIL",
+    "image": "/Pic/vikash.jpg",
+    "team": "Core",
+    "instagram": "https://www.instagram.com/feature_swag_0906?igsh=MXRwd2p1dmhmY3hyMQ=="
   },
   {
     "name": "Shaumya Raj",
     "role": "Core Committee",
     "department": "CSE",
-    "image": "/Pic/shaumya.jpg",
+    "image": "/Pic/shaumya.jpeg",
     "team": "Core",
-    "instagram": ""
+    "instagram": "https://www.instagram.com/rajshaumya?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
   },
   {
     "name": "Kaushal Kumar",
     "role": "Core Committee",
     "department": "CSE",
-    "image": "/Pic/kaushal.jpg",
+    "image": "/Pic/kaushal.jpeg",
     "team": "Core",
     "instagram": "https://www.instagram.com/kaushalyadav_04?igsh=MXdiYnp5OWYxcTA0OA%3D%3D&utm_source=qr"
   },
   {
-    "name": "Sujoy Garai",
-    "role": "Technical Team",
+    "name": "Piyush Agarwal",
+    "role": "Core Committee",
     "department": "CSE",
-    "image": "/Pic/sujoygarai.jpeg",
-    "team": "Tech",
-    "instagram": "https://www.instagram.com/_sujoygarai_"
+    "image": "/Pic/piyush.jpg",
+    "team": "Core",
+    "instagram": "https://www.instagram.com/piyush_agarwal.x?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
   },
   {
-    "name": "Mayank Manohar",
-    "role": "Technical Team",
-    "department": "CSE",
-    "image": "/Pic/mayank.jpg",
-    "team": "Tech",
-    "instagram": "https://www.instagram.com/manohar_mayank?igsh=eHZ2OHo4d3dpMm1r"
+    "name": "Rakesh Kumar",
+    "role": "Core Committee",
+    "department": "ME",
+    "image": "/Pic/rakesh.jpg",
+    "team": "Core",
+    "instagram": "https://www.instagram.com/rakesh_gupta_9/?utm_source=ig_web_button_share_sheet"
+  },
+  {
+    "name": "Samali Bose",
+    "role": "Core Committee",
+    "department": "ECE",
+    "image": "/Pic/samali.jpg",
+    "team": "Core",
+    "instagram": "https://www.instagram.com/yoursamali?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
   },
   {
     "name": "Supriyo Maji",
@@ -48,27 +64,54 @@
     "instagram": "https://www.instagram.com/supriyo__19"
   },
   {
-    "name": "Ratnesh Kumar Mandal",
-    "role": "Core Committee",
-    "department": "IT",
-    "image": "/Pic/unkhown.jpg",
-    "team": "Core",
-    "instagram": ""
-  },
-  {
     "name": "Md Faaiz Khan",
     "role": "Core Committee",
     "department": "DS",
-    "image": "/Pic/unkhown.jpg",
+    "image": "/Pic/faaiz.jpg",
     "team": "Core",
-    "instagram": ""
+    "instagram": "https://www.instagram.com/khan_sahab_47_07/?utm_source=ig_web_button_share_sheet"
   },
+
   {
     "name": "Praveen Kumar mondal",
     "role": "Core Committee",
     "department": "EE",
-    "image": "/Pic/unkhown.jpg",
+    "image": "/Pic/praveen.jpg",
     "team": "Core",
     "instagram": "https://www.instagram.com/mr_unique_27_90?igsh=MWY4bnp6cWxoZjZmNg=="
+  },
+  {
+    "name": "Ratnesh Kumar Mandal",
+    "role": "Core Committee",
+    "department": "IT",
+    "image": "/Pic/ratnesh.jpg",
+    "team": "Core",
+    "instagram": "https://www.instagram.com/miteckee?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+  },
+
+  {
+    "name": "Bubun Singha",
+    "role": "Core Committee",
+    "department": "IT",
+    "image": "/Pic/bubun.jpg",
+    "team": "Core",
+    "instagram": "https://www.instagram.com/supriyo__19"
+  },
+
+  {
+    "name": "Mayank Manohar",
+    "role": "Technical Team",
+    "department": "CSE",
+    "image": "/Pic/mayank.jpg",
+    "team": "Tech",
+    "instagram": "https://www.instagram.com/manohar_mayank?igsh=eHZ2OHo4d3dpMm1r"
+  },
+  {
+    "name": "Sujoy Garai",
+    "role": "Technical Team",
+    "department": "CSE",
+    "image": "/Pic/sujoygarai.jpeg",
+    "team": "Tech",
+    "instagram": "https://www.instagram.com/_sujoygarai_"
   }
 ]
