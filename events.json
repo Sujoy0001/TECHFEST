@@ -5,7 +5,10 @@
     "description": "Present innovative technical ideas and solutions to a panel of experts. Participants will engage in a Q&A session to defend their ideas",
     "date": "2026-02-00T09:00:00",
     "image": "/eventposter/Techacktron.jpg",
-    "form": "https://forms.gle/yourformlink"
+    "form": "https://forms.gle/yourformlink",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 2,
