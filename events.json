@@ -16,7 +16,10 @@
     "description": "Designe to test participant's knowledge under pressure. Questions span various topics, ensuring a stimulating and competitive environment for all participants.",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/slide01.png",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 3,
@@ -24,7 +27,10 @@
     "description": "CineTrix and Animation is a creative platform for aspiring filmmakers and animators to showcase their storytelling abilities through short films and animations.",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/ShotOn.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 4,
@@ -32,7 +38,10 @@
     "description": "A competitive gaming event where participants showcase their strategic and technical skills across two major competitions: PUBG (online) and FIFA (offline).",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/got.png",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 5,
@@ -40,7 +49,10 @@
     "description": "Technical Poster Presentation, showcasing groundbreaking ideas and innovations.",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/Papyrus.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 6,
@@ -48,7 +60,10 @@
     "description": "i) maze-solving robots ii)  All-Terrain Vehicle (ATV) for disaster management iii) Robo war",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/RoboTrix.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 7,
@@ -56,7 +71,10 @@
     "description": "Solve the puzzle of Circuits & Find the missing components",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/circuitrix.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 8,
@@ -64,7 +82,10 @@
     "description": "Website Design Competition & Showcase UI/UX design interface for web or mobile application",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/Y-Combinator.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 9,
@@ -72,7 +93,10 @@
     "description": "Coding competition where participants compete in two categories: fastest code execution and least backspace usage. ",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/code it now.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 10,
@@ -80,7 +104,10 @@
     "description": "A bug-fixing competition where participants find and fix bugs in codebases.",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/BugBounty.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 11,
@@ -88,7 +115,10 @@
     "description": "Problem-solving challenge where participants navigate mazes and grid-based puzzles to arrive at optimal solutions. ",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/slide02.jpeg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 12,
@@ -96,7 +126,10 @@
     "description": "innovative projects promoting sustainable growth, aligning with the 'Make in India' scheme. Round1- project model presentation. Round2- present project ideas.",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/BuildIndia.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 13,
@@ -104,7 +137,10 @@
     "description": "Business Plan Pitch Competition where participents present their innovative startup ideas",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/Startup Synergy.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 14,
@@ -112,7 +148,10 @@
     "description": "i) Mechanical drawing and design contest ii) Mechanical puzzle and tricky problems",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/Mechvation.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   },
   {
     "id": 15,
@@ -120,6 +159,9 @@
     "description": "Where Strength Meets Design is an arch model–making competition where participants design, build, and test structurally efficient arches using limited materials.",
     "date": "2025-01-00T14:00:00",
     "image": "/eventposter/Archeon.jpg",
-    "form": "https://forms.gle/yourformlink2"
+    "form": "https://forms.gle/yourformlink2",
+    "venue": "FF-02",
+    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
+    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
   }
 ]

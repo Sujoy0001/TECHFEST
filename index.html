@@ -308,6 +308,19 @@
     <img src="/slide/slide3.jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
     <img src="/slide/slide4.jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
     <img src="/slide/slide5.jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (1).jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (1).jpg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (2).jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (2).jpg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (3).jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (3).jpg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (4).jpeg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (4).jpg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (5).jpg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (6).jpg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (7).jpg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+    <img src="/slide/img1 (8).jpg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
+     <img src="/slide/img1 (9).jpg" class="slide absolute inset-0 w-full h-full object-cover opacity-0 transition-opacity duration-1000">
   </div>
 
   <!-- Overlay -->
@@ -391,7 +404,7 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 
-    <section id="sponsors" class="h-auto w-full p-4 flex flex-col justify-center items-center text-white">
+    <!-- <section id="sponsors" class="h-auto w-full p-4 flex flex-col justify-center items-center text-white">
         <h2 class="sujoy2 text-5xl md:text-6xl">Sponsorship</h2>
 
         <div
@@ -399,7 +412,7 @@ document.addEventListener("DOMContentLoaded", () => {
             class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mt-8"
         ></div>
 
-    </section>
+    </section> -->
 
     <script>
     fetch("sponsors.json")
@@ -429,7 +442,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((error) => console.error("Error loading sponsors:", error));
 </script>
 
-<section id="sponsors" class="h-auto w-full p-4 flex flex-col justify-center items-center text-white">
+<section id="sponsors" class="h-auto w-full px-4 py-8 flex flex-col justify-center items-center text-white">
         <h2 class="sujoy2 text-5xl text-center md:text-6xl">Technical Sponsorship</h2>
 
         <div  class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center mt-12">
@@ -478,6 +491,24 @@ document.addEventListener("DOMContentLoaded", () => {
       events.forEach((event) => {
         const date = new Date(event.date);
 
+        const fcHTML = event.fc
+          .map(
+            (p) => `
+            <p class="text-md sujoy1 text-gray-300 mb-1">
+              👤 ${p.name} | 📞 ${p.phone}
+            </p>`
+          )
+          .join("");
+
+        const scHTML = event.sc
+          .map(
+            (p) => `
+            <p class="text-md sujoy1 text-gray-300 mb-1">
+              👤 ${p.name} | 📞 ${p.phone}
+            </p>`
+          )
+          .join("");
+
         const card = document.createElement("div");
         card.className =
           "h-auto bg-gray-800/40 backdrop-blur-sm rounded-2xl border border-gray-700/50 overflow-hidden shadow-lg hover:scale-105 transition duration-300";
@@ -496,16 +527,7 @@ document.addEventListener("DOMContentLoaded", () => {
               ${event.description}
             </p>
 
-            <p class="text-md sujoy1 text-gray-300 mb-4">
-              📅 ${date.toDateString()} | ⏰ ${date.toLocaleTimeString([], {
-                hour: "2-digit",
-                minute: "2-digit",
-              })}
-            </p>
-
-             <p class="text-md sujoy1 text-gray-300 mb-4">
-              📅 ${fc.name} | ⏰ ${fc.phone}
-            </p>
+            <h4 class="text-yellow-400 sujoy1 text-md mb-2">Venue : ${event.venue}</h4>
 
             <p class="text-md sujoy1 text-gray-300 mb-4">
               📅 ${date.toDateString()} | ⏰ ${date.toLocaleTimeString([], {
@@ -513,6 +535,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 minute: "2-digit",
               })}
             </p>
+
+            <h4 class="text-cyan-400 sujoy1 mt-3 mb-1">Student Coordinators</h4>
+            ${scHTML}
           </div>
         `;
 
@@ -521,6 +546,9 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch((err) => console.error("Failed to load events:", err));
 </script>
+
+  <!-- <h4 class="text-cyan-400 sujoy1 mb-1">Faculty Coordinators</h4>
+            ${fcHTML} -->
 
 <script>
   window.addEventListener("load", () => {
