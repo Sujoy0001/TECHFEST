@@ -137,18 +137,11 @@
                       </div>
                     </div>
                     <div class="flex flex-col gap-0 md:flex-row md:gap-4">
-                      <a href="https://forms.gle/GWTnv3eYkMafyQP68">
                       <button class="group relative mt-4 px-8 py-4 bg-gradient-to-r from-blue-600 to-cyan-600 hover:from-blue-700 hover:to-cyan-700 rounded-md sujoy1 text-lg md:text-xl transition-all duration-300 transform hover:scale-105 overflow-hidden">
-                          <span class="relative z-10">IN-HOUSE REGISTRATION</span>
+                          <span class="relative z-10">REGISTRATION CLOSED</span>
                           <div class="absolute inset-0 bg-gradient-to-r from-blue-700 to-cyan-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                           <div class="absolute top-0 -left-full group-hover:left-full w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-all duration-700"></div>
-                      </button></a>
-                      <a href="https://forms.gle/BgDi3NWiLrDDJFgB7">
-                      <button class="group relative mt-4 px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 rounded-md sujoy1 text-lg md:text-xl transition-all duration-300 transform hover:scale-105 overflow-hidden">
-                          <span class="relative z-10">OTHER INSTITUTES</span>
-                          <div class="absolute inset-0 bg-gradient-to-r from-purple-700 to-pink-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                          <div class="absolute top-0 -left-full group-hover:left-full w-full h-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-all duration-700"></div>
-                      </button></a>
+                      </button>
                     </div>
                 </div>
             </div>
@@ -284,6 +277,55 @@
 
     </section>
 
+    <section class="w-full py-8 px-4">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+
+        <!-- Card 1 -->
+        <div class="flex flex-col sm:flex-row items-center gap-6 bg-neutral-900/60 backdrop-blur-lg border border-neutral-800 rounded-2xl p-6 shadow-xl hover:scale-[1.02] transition">
+          
+          <!-- Left Image -->
+          <img 
+            src="/images/Anirban.jpeg"
+            alt="Convener"
+            class="w-40 h-40 rounded-xl object-cover border border-neutral-700"
+          />
+
+          <!-- Right Text -->
+          <div class="text-center sm:text-left">
+            <h3 class="text-2xl sujoy2 font-semibold text-white mb-2">
+              Convener – Horizon 2k26
+            </h3>
+            <p class="text-neutral-200 leading-relaxed">
+              It gives me immense pleasure to welcome you to Horizon 2k26, our annual tech fest that celebrates innovation, creativity, and technical excellence. I encourage all participants to explore, compete, and collaborate as we shape ideas that define the future.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="flex flex-col sm:flex-row items-center gap-6 bg-neutral-900/60 backdrop-blur-lg border border-neutral-800 rounded-2xl p-6 shadow-xl hover:scale-[1.02] transition">
+          
+          <!-- Left Image -->
+          <img 
+            src="/images/jc.jpeg"
+            alt="Convener"
+            class="w-40 h-40 rounded-xl object-cover border border-neutral-700"
+          />
+
+          <!-- Right Text -->
+          <div class="text-center sm:text-left">
+            <h3 class="text-2xl sujoy2 font-semibold text-white mb-2">
+              Joint Convener – Horizon 2k26
+            </h3>
+            <p class="text-neutral-200 leading-relaxed">
+              Horizon 2k26 is a platform to challenge intellect, showcase talent, and foster teamwork across diverse domains of technology. I wish all participants a rewarding experience filled with learning, innovation, and success.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
     <section class="h-auto w-full p-4 flex flex-col justify-center items-center text-white">
       <h2 class="sujoy2 text-6xl text-center">About Techfest</h2>
 
@@ -401,15 +443,15 @@ document.addEventListener("DOMContentLoaded", () => {
 </script>
 
 
-    <!-- <section id="sponsors" class="h-auto w-full p-4 flex flex-col justify-center items-center text-white">
+    <section id="sponsors" class="h-auto w-full p-4 flex flex-col justify-center items-center text-white">
         <h2 class="sujoy2 text-5xl md:text-6xl">Sponsorship</h2>
 
         <div
             id="sponsor-container"
-            class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center mt-8"
+            class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 justify-items-center mt-8"
         ></div>
 
-    </section> -->
+    </section>
 
     <script>
     fetch("sponsors.json")
@@ -426,11 +468,8 @@ document.addEventListener("DOMContentLoaded", () => {
           <img 
             src="${sponsor.logo}" 
             alt="${sponsor.name}" 
-            class="max-h-32 object-contain mb-4"
+            class="max-h-42 object-contain"
           />
-          <p class="text-xl sujoy2 text-white font-semibold text-center">
-            ${sponsor.name}
-          </p>
         `;
 
         container.appendChild(card);
@@ -442,15 +481,18 @@ document.addEventListener("DOMContentLoaded", () => {
 <section id="sponsors" class="h-auto w-full px-4 py-8 flex flex-col justify-center items-center text-white">
         <h2 class="sujoy2 text-5xl text-center md:text-6xl">Technical Sponsorship</h2>
 
-        <div  class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center mt-12">
-          <img src="/images/images.png" alt="t-sponsor">
-          <img src="/images/images (1).jpg" alt="t-sponsor">
-          <img src="/images/images (1).png" alt="t-sponsor">
-          <img src="/images/images (2).jpg" alt="t-sponsor">
-          <img src="/images/IEI.png" alt="t-sponsor">
-          <img src="/images/images (2).png" alt="t-sponsor">
-          <img src="/images/images.jpg" alt="t-sponsor">
+        <div  class="grid max-w-6xl grid-cols-1 px-8 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16 justify-items-center mt-12">
+          <img src="/images/images.png" alt="t-sponsor" class="h-auto w-auto">
+          <img src="/images/images (1).jpg" alt="t-sponsor" class="h-auto w-auto">
+          <img src="/images/images (1).png" alt="t-sponsor" class="h-auto w-auto">
+          <img src="/images/iset.jpeg" alt="t-sponsor" class="h-[32vh] w-auto">
+          <img src="/images/IEI.png" alt="t-sponsor" class="h-auto w-auto">
+          <img src="/images/images.jpg" alt="t-sponsor" class="h-auto w-auto">
         </div>
+        <div class="mt-8 flex justify-center items-center w-full">
+          <img src="/images/images (2).png" alt="t-sponsor" class="h-auto w-auto">
+        </div>
+          
 
     </section>
 
@@ -630,7 +672,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 <footer class="border-t border-white/10">
   <div class="text-center sujoy1 py-6 text-sm text-zinc-500 border-t border-white/10">
-    © 2026 techfest bcrec. All rights reserved to Mayank Manohar & Sujay Garai.
+    © 2026 techfest bcrec. All rights reserved to Mayank Manohar & Sujoy Garai.
   </div>
 </footer>
 

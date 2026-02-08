@@ -3,165 +3,165 @@
     "id": 1,
     "title": "Techackatron",
     "description": "Present innovative technical ideas and solutions to a panel of experts. Participants will engage in a Q&A session to defend their ideas",
-    "date": "2026-02-00T09:00:00",
+    "date": "2026-02-11T14:30:00",
     "image": "/eventposter/Techacktron.jpg",
     "form": "https://forms.gle/yourformlink",
     "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "fc": [{"name": "Prof.(Dr). Soumen Mallik"}, {"name": "Prof. Soumendra Pain "}],
+    "sc": [{"name": "SHUBHAM KUMAR", "phone": "7004259098"}] 
   },
   {
     "id": 2,
     "title": "QuizBuzz",
     "description": "Designe to test participant's knowledge under pressure. Questions span various topics, ensuring a stimulating and competitive environment for all participants.",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-10T16:00:00",
     "image": "/eventposter/slide01.png",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "Albert/DM",
+    "fc": [{"name": "Prof. (Dr.) Jaya Mukhopadhyay"}, {"name": "Prof. Sukarna Dey Mondal", "phone": "9933050989"}],
+    "sc": [{"name": "ANIRBAN DAS", "phone": "7908082561"}] 
   },
   {
     "id": 3,
     "title": "ShotOn",
     "description": "CineTrix and Animation is a creative platform for aspiring filmmakers and animators to showcase their storytelling abilities through short films and animations.",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-11T11:00:00",
     "image": "/eventposter/ShotOn.jpg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "GF - 02",
+    "fc": [{"name": " Prof.(Dr.) Taniya Chakraborty", "phone": "9475942972"}, {"name": "Jaya Mukhopadhyay", "phone": "947473084"}],
+    "sc": [{"name": "RAKHAHARI ROY", "phone": "9832723915"}] 
   },
   {
     "id": 4,
     "title": "Game Of Throne",
     "description": "A competitive gaming event where participants showcase their strategic and technical skills across two major competitions: PUBG (online) and FIFA (offline).",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-11T15:30:00",
     "image": "/eventposter/got.png",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "Declared Soon",
+    "fc": [{"name": "Prof. (Dr) Arnab Banerjee"}, {"name": "Prof. Nasim Anjum Hoque", "phone": "9734235817"},{"name": "Prof. Prasenjit Maji"}],
+    "sc": [{"name": "SUBHANATH KUNDU", "phone": "8389025942"},{"name": "SUMAN DAS", "phone": "8918735569"}] 
   },
   {
     "id": 5,
     "title": "Papyrus",
     "description": "Technical Poster Presentation, showcasing groundbreaking ideas and innovations.",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-10T11:30:00",
     "image": "/eventposter/Papyrus.jpg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "In front of Central Library",
+    "fc": [{"name": "Prof. (Dr.) Arijit Banerjee", "phone": "9508978310"}, {"name": "Prof.Nilkamal Bhunia"}],
+    "sc": [{"name": "RAJA KUMAR", "phone": "7209513882"}] 
   },
   {
     "id": 6,
     "title": "RoboTrix & Virtual Visionaries Battel",
     "description": "i) maze-solving robots ii)  All-Terrain Vehicle (ATV) for disaster management iii) Robo war",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-10T10:30:00",
     "image": "/eventposter/RoboTrix.jpg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "Declared Soon (Throughout the day (10-11 Feb)",
+    "fc": [{"name": "Prof. Subhajit Bhattacharya", "phone": "9932332989"}, {"name": "Prof. (Dr.) Sourav Paul"}],
+    "sc": [{"name": "SHIVAM KUMAR", "phone": "9431803462"}, {"name": "ARPAN MUKHERJEE", "phone": "9635294417"}] 
   },
   {
     "id": 7,
     "title": "CircuiTrix",
     "description": "Solve the puzzle of Circuits & Find the missing components",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-10T13:30:00",
     "image": "/eventposter/circuitrix.jpg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "ECE (Analog Electronics Lab)",
+    "fc": [{"name": "Prof. (Dr.) Kingsuk Majumdar", "phone": "9475030263"}, {"name": "Prof. Surajit Batabyal", "phone": "9832792897"}, {"name": "Prof. Moloy Mukherjee"}],
+    "sc": [{"name": "MINI MADHU", "phone": "9113327057"}] 
   },
   {
     "id": 8,
     "title": "Y- Combinator",
     "description": "Website Design Competition & Showcase UI/UX design interface for web or mobile application",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-11T13:30:00",
     "image": "/eventposter/Y-Combinator.jpg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "DS Dept. LAB",
+    "fc": [{"name": "Prof. (Dr) Arnab Banerjee"}, {"name": "Prof. (Dr) Sovan Bhattacharya"}, {"name": "Prof. Kinshuk Banerjee"}],
+    "sc": [{"name": "ANIRBAN DAS", "phone": "7908082561"}] 
   },
   {
     "id": 9,
     "title": "Code it now",
     "description": "Coding competition where participants compete in two categories: fastest code execution and least backspace usage. ",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-11T14:30:00",
     "image": "/eventposter/code it now.jpg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "IT LAB 1, LAB 2 & LAB 3",
+    "fc": [{"name": "Prof. Keramot Hossain Mondal"}, {"name": "Prof. Priyanka Roy"}, {"name": "Prof. Sayan De"}],
+    "sc": [{"name": "KAUSTAB MUKHARJEE", "phone": "6296097752"}, {"name": "MAYANK RAJ", "phone": "9304149412"}] 
   },
   {
     "id": 10,
     "title": "Bug Bounty",
     "description": "A bug-fixing competition where participants find and fix bugs in codebases.",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-11T15:30:00",
     "image": "/eventposter/BugBounty.jpg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "CSE LAB 1, LAB 2 & LAB 3",
+    "fc": [{"name": "Prof. Sayed Zahir Hasan"}, {"name": "Prof. Joyjit Patra", "phone": "9474447078"}, {"name": "Prof. Priyankar Sarkar"}],
+    "sc": [{"name": "AYUSHI SINGH", "phone": "8757605191"}] 
   },
   {
     "id": 11,
     "title": "HackMaze",
     "description": "Problem-solving challenge where participants navigate mazes and grid-based puzzles to arrive at optimal solutions. ",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-10T15:30:00",
     "image": "/eventposter/slide02.jpeg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "MCA Dept LAB",
+    "fc": [{"name": "Prof. Subhrangshu  Chandra"}, {"name": "Prof. Anupam Baidya"}, {"name": "Amit Kumar Mondal"}],
+    "sc": [{"name": "LAKHINDAR PAL", "phone": "9083677890"}] 
   },
   {
     "id": 12,
     "title": "Build India",
     "description": "innovative projects promoting sustainable growth, aligning with the 'Make in India' scheme. Round1- project model presentation. Round2- present project ideas.",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-11T11:00:00",
     "image": "/eventposter/BuildIndia.png",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "GF-04 (Model demonstration ), GF-02 (Presentation)",
+    "fc": [{"name": "Prof. (Dr.) Soumen Mallick"}, {"name": "Prof. (Dr.) Chandan Paul"}],
+    "sc": [{"name": "BICKY KUMAR MAHTO", "phone": "6206023363"}] 
   },
   {
     "id": 13,
     "title": "Startup Synergy",
     "description": "Business Plan Pitch Competition where participents present their innovative startup ideas",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-11T11:30:00",
     "image": "/eventposter/Startup Synergy.jpg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "GF-01/MBA",
+    "fc": [{"name": "Prof. Bijoy Gupta"}, {"name": "Prof. Niloy Kr Bhattacharjee"}],
+    "sc": [{"name": "ABHAY CHATTERJEE", "phone": "8016762899"}] 
   },
   {
     "id": 14,
     "title": "Mechvation",
     "description": "i) Mechanical drawing and design contest ii) Mechanical puzzle and tricky problems",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-10T14:00:00",
     "image": "/eventposter/Mechvation.jpg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "ME Dept",
+    "fc": [{"name": "Prof. (Dr.) Arijit Banerjee"}, {"name": "Prof. Subhajit Bhattacharya"}],
+    "sc": [{"name": "SUBHAJIT PAL", "phone": "8392063756"}] 
   },
   {
     "id": 15,
     "title": "ARCHEON",
     "description": "Where Strength Meets Design is an arch model–making competition where participants design, build, and test structurally efficient arches using limited materials.",
-    "date": "2025-01-00T14:00:00",
+    "date": "2026-02-11T15:30:00",
     "image": "/eventposter/Archeon.jpg",
     "form": "https://forms.gle/yourformlink2",
-    "venue": "FF-02",
-    "fc": [{"name": "Ankit Kumar", "phone": "9876543210"}, {"name": "Saksham Gupta", "phone": "9876543210"}],
-    "sc": [{"name": "Rohit Sharma", "phone": "9876543210"}] 
+    "venue": "CE Dept",
+    "fc": [{"name": "Prof. Hamjala Alam", "phone": "8101552649"}, {"name": "Prof. Chanchal Das"}],
+    "sc": [{"name": "AKASH GANGULY", "phone": "9339598054"}, {"name": "UDIT SARKAR", "phone": "9800921184"}] 
   }
 ]
